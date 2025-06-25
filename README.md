@@ -60,11 +60,11 @@ As instâncias respondem a requisições no endpoint `/teste`, que simula uma ca
 * **Load Balancer**: porta 80 liberada para entrada pública.
 * Os Security Groups foram associados às respectivas funções no projeto.
 
-<p align="center"><img src="./imagens/02_securitygroup/sg_01.png" width="600"/></p>
-<p align="center"><img src="./imagens/02_securitygroup/sg_02.png" width="600"/></p>
-<p align="center"><img src="./imagens/02_securitygroup/sg_03.png" width="600"/></p>
-<p align="center"><img src="./imagens/02_securitygroup/sg_lb01.png" width="600"/></p>
-<p align="center"><img src="./imagens/02_securitygroup/sg_lb02.png" width="600"/></p>
+<p align="center"><img src="./imagens/02_securitygroups/sg_01.png" width="600"/></p>
+<p align="center"><img src="./imagens/02_securitygroups/sg_02.png" width="600"/></p>
+<p align="center"><img src="./imagens/02_securitygroups/sg_03.png" width="600"/></p>
+<p align="center"><img src="./imagens/02_securitygroups/sg_lb01.png" width="600"/></p>
+<p align="center"><img src="./imagens/02_securitygroups/sg_lb02.png" width="600"/></p>
 ---
 
 ### 3. Criação do Modelo de Execução (Launch Template)
@@ -179,10 +179,10 @@ Durante a execução, foi possível observar o aumento automático do número de
 *Inserir print do terminal com a execução do `ab`*
 *Inserir gráfico do CloudWatch com a variação das instâncias*
 
-<p align="center"><img src="./imagens/resultados/ab.png" width="600"/></p>
-<p align="center"><img src="./imagens/resultados/instancia.png" width="600"/></p>
-<p align="center"><img src="./imagens/resultados/desligando_instancias.png" width="600"/></p>
-<p align="center"><img src="./imagens/resultados/3_instancias.png" width="600"/></p>
+<p align="center"><img src="./imagens/07_resultados/ab.png" width="600"/></p>
+<p align="center"><img src="./imagens/07_resultados/instancia.png" width="600"/></p>
+<p align="center"><img src="./imagens/07_resultados/desligando_instancias.png" width="600"/></p>
+<p align="center"><img src="./imagens/07_resultados/3_instancias.png" width="600"/></p>
 ---
 
 ## Resultado Esperado
@@ -191,7 +191,7 @@ Durante a execução, foi possível observar o aumento automático do número de
 * O número de instâncias varia automaticamente de acordo com a carga.
 * O ambiente responde de forma dinâmica, garantindo escalabilidade e controle de recursos.
 
-<p align="center"><img src="./imagens/resultados/resultado.png" width="600"/></p>
+<p align="center"><img src="./imagens/07_resultados/resultado.png" width="600"/></p>
 ---
 
 ## Documentações Referenciadas
