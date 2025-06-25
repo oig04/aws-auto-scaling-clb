@@ -176,9 +176,6 @@ ab -t 300 -c 50 http://LB-projeto-793430503.us-east-1.elb.amazonaws.com/teste
 
 Durante a execução, foi possível observar o aumento automático do número de instâncias no ASG.
 
-*Inserir print do terminal com a execução do `ab`*
-*Inserir gráfico do CloudWatch com a variação das instâncias*
-
 <p align="center"><img src="./imagens/07_resultados/ab.png" width="600"/></p>
 <p align="center"><img src="./imagens/07_resultados/instancia.png" width="600"/></p>
 <p align="center"><img src="./imagens/07_resultados/desligando_instancias.png" width="600"/></p>
